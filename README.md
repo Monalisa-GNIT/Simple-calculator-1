@@ -8,6 +8,7 @@ def sum(a,b):
 def sub(a,b):
   if a>b:
    a-=b
+   return a
   else:
    b-=a
    return b
@@ -30,7 +31,7 @@ while(True):
   print("\n\nChoose the operation you want to perform: ")
   print("\n\t1.ADDITION")
   print("\n\t2.SUBTRACTION")
-  print("\n\t3.MULTIPLICATION) 
+  print("\n\t3.MULTIPLICATION") 
   print("\n\t4.DIVISION")
   print("\n\t5. SQUARE ROOT")
   print("\n\t6.EXIT")
